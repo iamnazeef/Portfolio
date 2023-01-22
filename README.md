@@ -6,3 +6,5 @@ This is the second version on my personal portfolio.
 > - TypeScript 
 > - Tailwind CSS 
 > - NPM 
+
+- Live [Link](https://iamnazeef.netlify.app/)
