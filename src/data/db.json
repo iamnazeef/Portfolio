@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/AudioNest-Web-Player/main/screenshots/Desktop.png",
+      "projectName": "AudioNest",
+      "projectDescription": "AudioNest is a web-based music streaming service. It is entirely developed with Vanilla JS/CSS/HTML and employs JSON Server as a database and Firestore as a CDN.",
+      "projectLink": "https://github.com/iamnazeef/AudioNest-Web-Player",
+      "endpoint": "audionest"
+    },
+    {
+      "id": 2,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/React-News-App/main/Screenshots/Screenshot%202022-11-03%20100609.png",
+      "projectName": "The Morning Post",
+      "projectDescription": "The Morning Post is a news app created with the help of technologies such as ReactJS, TailwindCSS, the Newsdata.io API, and the OpenWeatherMap API.",
+      "projectLink": "https://github.com/iamnazeef/React-News-App",
+      "endpoint": "themorningpost"
+    },
+    {
+      "id": 3,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/Todo-App-Netlify/main/screenshots/desktop-view.png",
+      "projectName": "Todo App",
+      "projectDescription": "TailwindCSS and ReactJS based responsive to-do list web application. The web app is hosted on Netlify, and tasks are saved to the local storage system.",
+      "projectLink": "https://github.com/iamnazeef/Todo-App-Netlify",
+      "endpoint": "todoapp"
+    },
+    {
+      "id": 4,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/Weather-App/main/screenshots/a1.png",
+      "projectName": "Weather App",
+      "projectDescription": "A simple weather app made using JavaScript, CSS , HTML and OpenWeatherMap API.",
+      "projectLink": "https://github.com/iamnazeef/Weather-App",
+      "endpoint": "weatherapp"
+    },
+    {
+      "id": 5,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/Landing-Page-Xypo/main/screenshots/Screenshot%202022-10-03%20154858.png",
+      "projectName": "Xypo",
+      "projectDescription": "This is a responsive landing page for an online edtech platform.",
+      "projectLink": "https://github.com/iamnazeef/Landing-Page-Xypo",
+      "endpoint": "xypo"
+    },
+    {
+      "id": 6,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/Portfolio/main/screenshots/desktop.png?token=GHSAT0AAAAAABYRAQ5WEB3XYPVKZ6X66E5IY6NE7SQ",
+      "projectName": "Portfolio-v1",
+      "projectDescription": "First version of my personal portfolio, built using React JS and Tailwind CSS.",
+      "projectLink": "https://github.com/iamnazeef/Portfolio",
+      "endpoint": "portfolio-v1"
+    }
+  ]
+}
