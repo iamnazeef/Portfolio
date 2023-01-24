@@ -12,7 +12,7 @@ const Home = () => {
       <div className="about mt-20">
         <About />
       </div>
-      <nav className="projects-and-stack text-standardGray tablet:text-base mt-7 font-manrope text-standardSize flex items-center space-x-4">
+      <nav className="projects-and-stack text-standardGray tablet:text-base mt-7 mb-3 font-manrope text-standardSize flex items-center space-x-4">
         <NavLink
           to="projects"
           className="font-[500]"
@@ -36,11 +36,13 @@ const Home = () => {
           </p>
         </NavLink>
       </nav>
-      <hr className="w-full mx-auto mt-3 mb-8 border-0 h-[0.1px] bg-darkGray rounded-sm" />
-      <div className="nested-routes-data-display">
+      <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm" />
+      <div className="nested-routes-data-display my-8">
         <Outlet />
       </div>
+      <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm" />
       <EndNote />
+      <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm" />
       <div className="footer text-sm my-5 text-standardGray flex items-center justify-between">
         <p>Nazeef &copy; {new Date().getFullYear().toString()}</p>
         <p>🚀</p>
