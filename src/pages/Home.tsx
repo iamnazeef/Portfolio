@@ -5,7 +5,7 @@ import SocialHandles from "../components/home/SocialHandles";
 
 const Home = () => {
   return (
-    <div className="home bg-black min-h-screen p-4 tablet:px-8 laptop:px-12 desktop:px-24">
+    <div className="home bg-black min-h-screen py-4 px-5  tablet:px-10 laptop:px-12 desktop:px-24">
       <div className="social-handles">
         <SocialHandles />
       </div>
@@ -17,10 +17,10 @@ const Home = () => {
           to="projects"
           className="font-[500]"
           style={({ isActive }) => ({
-            color: isActive ? "white" : "#a3a3a3",
+            color: isActive ? "#EEEEE7" : "#a3a3a3",
           })}
         >
-          <p className="hover:text-white transition-colors delay-75 ease-linear">
+          <p className="hover:text-gray-200 transition-colors delay-75 ease-linear laptop:text-[1.05rem]">
             Projects
           </p>
         </NavLink>
@@ -28,10 +28,10 @@ const Home = () => {
           to="tech-stack"
           className="font-[500]"
           style={({ isActive }) => ({
-            color: isActive ? "white" : "#a3a3a3",
+            color: isActive ? "#EEEEE7" : "#a3a3a3",
           })}
         >
-          <p className="hover:text-white transition-colors delay-75 ease-linear">
+          <p className="hover:text-gray-200 transition-colors delay-75 ease-linear laptop:text-[1.05rem]">
             Tech stack
           </p>
         </NavLink>

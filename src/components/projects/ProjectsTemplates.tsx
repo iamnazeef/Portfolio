@@ -4,7 +4,7 @@ const ProjectsTemplate = ({ projectDetails }: any) => {
   const [slideArrow, setSlideArrow] = useState(false);
   return (
     <div className="font-manrope w-full max-w-[345px] min-h-[406px] mx-auto">
-      <div className="project-image w-full h-[60%]">
+      <div className="project-image w-full h-[60%] rounded-xl">
         <img
           src={projectDetails.projectImage}
           alt={`A screenshot of the project ${projectDetails.projectName}`}
@@ -13,15 +13,15 @@ const ProjectsTemplate = ({ projectDetails }: any) => {
         />
       </div>
       <div className="projects-details w-full h-[40%] flex flex-col space-y-3">
-        <h2 className="text-standardSize font-[500] text-white pt-5">
+        <h2 className="text-standardSize tablet:text-[0.995rem] laptop:text-[1rem] font-[500] text-white pt-5">
           {projectDetails.projectName}
         </h2>
-        <p className="text-standardGray text-[0.950rem]">
+        <p className="text-standardGray text-[0.950rem] tablet:text-[0.960rem] laptop:text-[0.970rem]">
           {projectDetails.projectDescription}
         </p>
         <a
           href={projectDetails.projectLink}
-          className="text-[0.850rem] text-white hover:text-standardGray transition-colors delay-75 ease-linear font-[500] flex items-center space-x-[0.06rem] w-fit"
+          className="text-[0.850rem] tablet:text-[0.860rem] laptop:text-[0.870rem] text-white hover:text-standardGray transition-colors delay-75 ease-linear font-[500] flex items-center space-x-[0.06rem] w-fit"
           onMouseEnter={() => setSlideArrow(true)}
           onMouseLeave={() => setSlideArrow(false)}
           target="_blank"

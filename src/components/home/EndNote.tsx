@@ -2,7 +2,7 @@ import ProfilePicture from "../../assets/profile-picture/image.jpg";
 
 const EndNote = () => {
   return (
-    <div className="end-note text-standardGray font-manrope text-sm text-center w-full max-w-[210px] mx-auto my-8">
+    <div className="end-note text-standardGray font-manrope text-sm text-center w-full max-w-[210px] laptop:max-w-[240px] laptop:text-base mx-auto my-8">
       <img
         src={ProfilePicture}
         alt="A picture of mine, taken in front of a mirror"

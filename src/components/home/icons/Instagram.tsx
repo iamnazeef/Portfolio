@@ -2,9 +2,7 @@ const Instagram = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="icon icon-tabler icon-tabler-brand-instagram hover:text-gray-400"
-      width="21"
-      height="21"
+      className="icon icon-tabler icon-tabler-brand-instagram h-[1.3rem] w-[1.3rem] tablet:h-[1.4rem] tablet:w-[1.4rem] laptop:h-[1.43rem] laptop:w-[1.43rem] hover:text-gray-200"
       viewBox="0 0 24 24"
       strokeWidth="2"
       stroke="currentColor"
