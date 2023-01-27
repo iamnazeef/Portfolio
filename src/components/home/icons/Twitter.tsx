@@ -1,4 +1,4 @@
-const Twitter = () => {
+const Twitter: React.FC = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

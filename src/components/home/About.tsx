@@ -2,8 +2,8 @@ import { useState } from "react";
 import Atom from "./icons/Atom";
 import SlideArrow from "./icons/SlideArrow";
 
-const About = () => {
-  const [slideArrow, setSlideArrow] = useState(false);
+const About: React.FC = () => {
+  const [slideArrow, setSlideArrow] = useState<boolean>(false);
 
   return (
     <div className="about text-standardGray font-medium text-standardSize tablet:text-base laptop:text-[1.1rem] font-manrope w-full max-w-[340px] laptop:max-w-[355px] flex flex-col space-y-3">

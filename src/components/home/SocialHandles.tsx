@@ -5,7 +5,7 @@ import Twitter from "./icons/Twitter";
 import Hashnode from "./icons/Hashnode";
 import { Tooltip } from "@material-tailwind/react";
 
-const SocialHandles = () => {
+const SocialHandles: React.FC = () => {
   return (
     <div className="social-handles mx-auto">
       <ul className="text-gray-500 flex items-center justify-center space-x-3">

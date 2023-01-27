@@ -1,6 +1,6 @@
 import ProfilePicture from "../../assets/profile-picture/image.jpg";
 
-const EndNote = () => {
+const EndNote: React.FC = () => {
   return (
     <div className="end-note text-standardGray font-manrope text-sm text-center w-full max-w-[210px] laptop:max-w-[240px] laptop:text-base mx-auto my-8">
       <img

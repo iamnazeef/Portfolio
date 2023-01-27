@@ -1,6 +1,6 @@
 import Technologies from "../components/tech-stack/Technologies";
 
-const TechStack = () => {
+const TechStack: React.FC = () => {
   return (
     <div className="tech-stack">
       <Technologies />

@@ -2,7 +2,7 @@ interface Props {
   slideArrow: boolean;
 }
 
-const slideArrow: React.FC<Props> = ({ slideArrow }) => {
+const SlideArrow: React.FC<Props> = ({ slideArrow }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -25,4 +25,4 @@ const slideArrow: React.FC<Props> = ({ slideArrow }) => {
   );
 };
 
-export default slideArrow;
+export default SlideArrow;

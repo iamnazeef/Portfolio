@@ -4,7 +4,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Projects from "./pages/Projects";
 import TechStack from "./pages/TechStack";
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
       <Routes>
@@ -17,6 +17,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
