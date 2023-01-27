@@ -7,7 +7,7 @@ import SocialHandles from "../components/home/SocialHandles";
 const Home: React.FC = () => {
   return (
     <div className="home bg-black min-h-screen py-4 px-5 tablet:px-10 laptop:px-12 desktop:px-24">
-      <div className="social-handles backdrop-blur-sm py-[0.30rem] fixed w-full top-0 left-0">
+      <div className="social-handles">
         <SocialHandles />
       </div>
       <div className="about mt-20">
