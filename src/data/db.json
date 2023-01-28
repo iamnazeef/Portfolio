@@ -34,11 +34,11 @@
     },
     {
       "id": 4,
-      "projectImage": "https://raw.githubusercontent.com/iamnazeef/Todo-App-Netlify/main/screenshots/desktop-view.png",
-      "projectName": "Todo App",
-      "projectDescription": "TailwindCSS and ReactJS based responsive to-do list web application. The web app is hosted on Netlify, and tasks are saved to the local storage system.",
-      "projectLink": "https://github.com/iamnazeef/Todo-App-Netlify",
-      "endpoint": "todoapp"
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/taskify/main/screenshots/desktop-view-2.png",
+      "projectName": "Taskify",
+      "projectDescription": "Taskify is a Todo List App built using React JS. It includes features such as adding tasks, editing tasks and deleting tasks along with saving the tasks in local storage.",
+      "projectLink": "https://github.com/iamnazeef/taskify",
+      "endpoint": "taskify"
     },
     {
       "id": 3,
