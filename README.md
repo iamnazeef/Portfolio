@@ -7,7 +7,9 @@ This is the second version of my personal portfolio.
 > - Tailwind CSS 
 > - NPM 
 
-- Live [Link](https://iamnazeef.netlify.app/)
+- [iamnazeef.netlify.app](https://iamnazeef.netlify.app/)
+
+# Screenshots
 
 ## Desktop View
 ![desktop view](https://raw.githubusercontent.com/iamnazeef/portfolio-v2/main/screenshots/desktop-view.png)
