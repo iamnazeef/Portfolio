@@ -12,7 +12,7 @@
       "id": 7,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/portfolio-v2/main/screenshots/desktop-view.png",
       "projectName": "Portfolio-v2",
-      "projectDescription": "This is the second version on my portfolio. Built using React JS, TypeScript, Tailwind CSS and Vite.",
+      "projectDescription": "This is the second version of my portfolio. Built using React JS, TypeScript, Tailwind CSS and Vite.",
       "projectLink": "https://github.com/iamnazeef/portfolio-v2",
       "endpoint": "portfolio-v2"
     },
