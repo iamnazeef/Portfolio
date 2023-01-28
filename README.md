@@ -1,5 +1,5 @@
 # Portfolio-v2
-This is the second version on my personal portfolio.
+This is the second version of my personal portfolio.
 
 - Technologies used:
 > - React JS
