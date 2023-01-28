@@ -36,7 +36,7 @@
       "id": 4,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/taskify/main/screenshots/desktop-view-2.png",
       "projectName": "Taskify",
-      "projectDescription": "Taskify is a Todo List App built using React JS. It includes features such as adding tasks, editing tasks and deleting tasks along with saving the tasks in local storage.",
+      "projectDescription": "Taskify is a to-do list app built using React JS. It includes features such as adding tasks, editing tasks and deleting tasks along with saving the tasks in local storage.",
       "projectLink": "https://github.com/iamnazeef/taskify",
       "endpoint": "taskify"
     },
