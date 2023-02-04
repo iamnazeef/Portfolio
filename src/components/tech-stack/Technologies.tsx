@@ -12,7 +12,7 @@ import { Tooltip } from "@material-tailwind/react";
 
 const Technologies = () => {
   return (
-    <div className="text-standardGray w-fit">
+    <section className="text-standardGray w-fit">
       <ul className="flex flex-col space-y-2 text-standardGray font-[500]">
         <Tooltip
           content="React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[3] for building user interfaces based on UI components."
@@ -150,7 +150,7 @@ const Technologies = () => {
           </li>
         </Tooltip>
       </ul>
-    </div>
+    </section>
   );
 };
 

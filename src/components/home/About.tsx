@@ -6,16 +6,18 @@ const About: React.FC = () => {
   const [slideArrow, setSlideArrow] = useState<boolean>(false);
 
   return (
-    <div className="about text-standardGray font-medium text-standardSize tablet:text-base laptop:text-[1.1rem] font-manrope w-full max-w-[340px] laptop:max-w-[355px] flex flex-col space-y-3">
+    <section className="about text-standardGray font-medium text-standardSize tablet:text-base laptop:text-[1.1rem] font-manrope w-full max-w-[340px] laptop:max-w-[355px] flex flex-col space-y-3">
       <Atom />
       <p>
         I'm{" "}
-        <span className="text-gray-200 font-[500] tracking-wider">Nazeef</span>,
-        a frontend developer and an aspiring full-stack developer
+        <span className="text-gray-200 font-[500] inline tracking-wider">
+          Nazeef
+        </span>
+        , a frontend web developer and an aspiring full-stack developer
       </p>
       <p>
-        I have a strong passion for creating visually appealing and
-        user-friendly websites and web applications.
+        I have strong passion for creating visually appealing and user-friendly
+        websites and web applications.
       </p>
 
       <a
@@ -24,10 +26,10 @@ const About: React.FC = () => {
         onMouseEnter={() => setSlideArrow(true)}
         onMouseLeave={() => setSlideArrow(false)}
       >
-        <p>Hire me</p>
+        <h2>Hire me</h2>
         <SlideArrow slideArrow={slideArrow} />
       </a>
-    </div>
+    </section>
   );
 };
 

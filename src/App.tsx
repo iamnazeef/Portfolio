@@ -1,8 +1,9 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import PageNotFound from "./pages/PageNotFound";
 import Projects from "./pages/Projects";
-import TechStack from "./pages/TechStack";
+const LazyTechStack = lazy(() => import("./pages/TechStack"));
+const LazyPageNotFound = lazy(() => import("./pages/PageNotFound"));
 
 const App: React.FC = () => {
   return (
@@ -11,9 +12,23 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />}>
           <Route index element={<Projects />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="tech-stack" element={<TechStack />} />
+          <Route
+            path="tech-stack"
+            element={
+              <Suspense fallback="loading...">
+                <LazyTechStack />
+              </Suspense>
+            }
+          />
         </Route>
-        <Route path="*" element={<PageNotFound />} />
+        <Route
+          path="*"
+          element={
+            <Suspense fallback="loading...">
+              <LazyPageNotFound />
+            </Suspense>
+          }
+        />
       </Routes>
     </Router>
   );

@@ -7,7 +7,7 @@ import { Tooltip } from "@material-tailwind/react";
 
 const SocialHandles: React.FC = () => {
   return (
-    <div className="social-handles mx-auto">
+    <nav className="social-handles mx-auto">
       <ul className="text-gray-500 flex items-center justify-center space-x-3">
         <Tooltip
           content="twitter.com/iamnazeef_"
@@ -19,7 +19,11 @@ const SocialHandles: React.FC = () => {
           className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
         >
           <li className="twitter">
-            <a href="https://twitter.com/iamnazeef_" target="_block">
+            <a
+              href="https://twitter.com/iamnazeef_"
+              target="_block"
+              aria-label="Visit my Twitter account"
+            >
               <Twitter />
             </a>
           </li>
@@ -37,6 +41,7 @@ const SocialHandles: React.FC = () => {
             <a
               href="https://www.linkedin.com/in/nazeef-muhammed/"
               target="_block"
+              aria-label="Visit my LinkedIn account"
             >
               <LinkedIn />
             </a>
@@ -52,7 +57,11 @@ const SocialHandles: React.FC = () => {
           className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
         >
           <li className="github">
-            <a href="https://github.com/iamnazeef" target="_block">
+            <a
+              href="https://github.com/iamnazeef"
+              target="_block"
+              aria-label="Visit my GitHub account"
+            >
               <GitHub />
             </a>
           </li>
@@ -67,7 +76,11 @@ const SocialHandles: React.FC = () => {
           className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
         >
           <li className="instagram">
-            <a href="https://www.instagram.com/iamnazeef/" target="_block">
+            <a
+              href="https://www.instagram.com/iamnazeef/"
+              target="_block"
+              aria-label="Visit my Instagram account"
+            >
               <Instagram />
             </a>
           </li>
@@ -82,13 +95,17 @@ const SocialHandles: React.FC = () => {
           className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
         >
           <li className="instagram">
-            <a href="https://iamnazeef.hashnode.dev/" target="_block">
+            <a
+              href="https://iamnazeef.hashnode.dev/"
+              target="_block"
+              aria-label="Visit my Hashnode account"
+            >
               <Hashnode />
             </a>
           </li>
         </Tooltip>
       </ul>
-    </div>
+    </nav>
   );
 };
 
