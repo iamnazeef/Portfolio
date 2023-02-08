@@ -1,8 +1,6 @@
 import GitHub from "./icons/GitHub";
-import Instagram from "./icons/Instagram";
 import LinkedIn from "./icons/LinkedIn";
 import Twitter from "./icons/Twitter";
-import Hashnode from "./icons/Hashnode";
 import { Tooltip } from "@material-tailwind/react";
 
 const SocialHandles: React.FC = () => {
@@ -10,7 +8,7 @@ const SocialHandles: React.FC = () => {
     <nav className="social-handles mx-auto">
       <ul className="text-gray-500 flex items-center justify-center space-x-3">
         <Tooltip
-          content="twitter.com/iamnazeef_"
+          content="github.com/iamnazeef"
           animate={{
             mount: { scale: 1, y: 0 },
             unmount: { scale: 0, y: 25 },
@@ -18,13 +16,13 @@ const SocialHandles: React.FC = () => {
           placement="bottom"
           className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
         >
-          <li className="twitter">
+          <li className="github">
             <a
-              href="https://twitter.com/iamnazeef_"
+              href="https://github.com/iamnazeef"
               target="_block"
-              aria-label="Visit my Twitter account"
+              aria-label="Visit my GitHub account"
             >
-              <Twitter />
+              <GitHub />
             </a>
           </li>
         </Tooltip>
@@ -48,7 +46,7 @@ const SocialHandles: React.FC = () => {
           </li>
         </Tooltip>
         <Tooltip
-          content="github.com/iamnazeef"
+          content="twitter.com/iamnazeef_"
           animate={{
             mount: { scale: 1, y: 0 },
             unmount: { scale: 0, y: 25 },
@@ -56,51 +54,13 @@ const SocialHandles: React.FC = () => {
           placement="bottom"
           className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
         >
-          <li className="github">
+          <li className="twitter">
             <a
-              href="https://github.com/iamnazeef"
+              href="https://twitter.com/iamnazeef_"
               target="_block"
-              aria-label="Visit my GitHub account"
+              aria-label="Visit my Twitter account"
             >
-              <GitHub />
-            </a>
-          </li>
-        </Tooltip>
-        <Tooltip
-          content="instagram.com/iamnazeef"
-          animate={{
-            mount: { scale: 1, y: 0 },
-            unmount: { scale: 0, y: 25 },
-          }}
-          placement="bottom"
-          className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
-        >
-          <li className="instagram">
-            <a
-              href="https://www.instagram.com/iamnazeef/"
-              target="_block"
-              aria-label="Visit my Instagram account"
-            >
-              <Instagram />
-            </a>
-          </li>
-        </Tooltip>
-        <Tooltip
-          content="hashnode.com/iamnazeef"
-          animate={{
-            mount: { scale: 1, y: 0 },
-            unmount: { scale: 0, y: 25 },
-          }}
-          placement="bottom"
-          className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
-        >
-          <li className="instagram">
-            <a
-              href="https://iamnazeef.hashnode.dev/"
-              target="_block"
-              aria-label="Visit my Hashnode account"
-            >
-              <Hashnode />
+              <Twitter />
             </a>
           </li>
         </Tooltip>
