@@ -6,6 +6,7 @@ import JavaScript from "./Icons/JavaScript";
 import MaterialUI from "./Icons/MaterialUI";
 import NPM from "./Icons/NPM";
 import ReactJS from "./Icons/ReactJS";
+import ReduxJS from "./Icons/ReduxJS";
 import TailwindCSS from "./Icons/TailwindCSS";
 import TypeScript from "./Icons/TypeScript";
 import { Tooltip } from "@material-tailwind/react";
@@ -27,6 +28,21 @@ const Technologies = () => {
             <ArrowRight />
             <ReactJS />
             <p>React JS</p>
+          </li>
+        </Tooltip>
+        <Tooltip
+          content="Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces."
+          animate={{
+            mount: { scale: 1, y: 0 },
+            unmount: { scale: 0, y: 25 },
+          }}
+          placement="right"
+          className="font-manrope text-xs bg-gray-900 laptop:text-sm max-w-[600px] text-gray-300 mt-1"
+        >
+          <li className="flex items-end space-x-2 hover:text-gray-200 cursor-help">
+            <ArrowRight />
+            <ReduxJS />
+            <p>Redux JS</p>
           </li>
         </Tooltip>
         <Tooltip

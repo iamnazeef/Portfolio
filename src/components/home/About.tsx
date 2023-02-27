@@ -13,7 +13,7 @@ const About: React.FC = () => {
         <span className="text-gray-200 font-[500] inline tracking-wider">
           Nazeef
         </span>
-        , a frontend web developer.
+        , a frontend developer.
       </p>
       <p>
         I have strong passion for creating visually appealing and user-friendly

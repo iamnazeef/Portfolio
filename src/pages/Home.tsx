@@ -37,7 +37,7 @@ const Home: React.FC = () => {
               })}
             >
               <h3 className="hover:text-gray-200 transition-colors delay-75 ease-linear laptop:text-[1.05rem]">
-                Tech stack
+                My tech stack
               </h3>
             </NavLink>
           </li>
