@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "id": 9,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/react-notes-app/main/public/screenshot.webp",
+      "projectName": "Noteu",
+      "projectDescription": "A simple note taking app built using React JS, Redux JS, TypeScript, Tailwind CSS and Firebase.",
+      "projectLink": "https://github.com/iamnazeef/react-notes-app/",
+      "endpoint": "noteu"
+    },
+    {
       "id": 8,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/skymart-ecommerce-store/screenshots/screenshots/desktop-view-1.png",
       "projectName": "Skymart",

@@ -41,6 +41,19 @@ const Home: React.FC = () => {
               </h3>
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="about"
+              className="font-[500]"
+              style={({ isActive }: { isActive: boolean }) => ({
+                color: isActive ? "#EEEEE7" : "#a3a3a3",
+              })}
+            >
+              <h3 className="hover:text-gray-200 transition-colors delay-75 ease-linear laptop:text-[1.05rem]">
+                About
+              </h3>
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm" />
