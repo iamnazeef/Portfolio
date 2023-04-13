@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "id": 10,
+      "projectImage": "https://raw.githubusercontent.com/iamnazeef/dashboard-app/main/public/admindash-screenshot.webp",
+      "projectName": "Admindash",
+      "projectDescription": "A admin dashboard app built using React JS, SCSS, JavaScript, MUI and Rechart.",
+      "projectLink": "https://github.com/iamnazeef/dashboard-app",
+      "endpoint": "admindash"
+    },
+    {
       "id": 9,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/react-notes-app/main/public/screenshot.webp",
       "projectName": "Noteu",

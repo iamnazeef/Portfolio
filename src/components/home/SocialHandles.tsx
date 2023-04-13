@@ -1,6 +1,5 @@
 import GitHub from "./icons/GitHub";
 import LinkedIn from "./icons/LinkedIn";
-import Twitter from "./icons/Twitter";
 import { Tooltip } from "@material-tailwind/react";
 
 const SocialHandles: React.FC = () => {
@@ -21,13 +20,15 @@ const SocialHandles: React.FC = () => {
               href="https://github.com/iamnazeef"
               target="_block"
               aria-label="Visit my GitHub account"
+              className="flex items-center gap-1 font-manrope font-semibold hover:text-gray-200 tracking-wide"
             >
-              <GitHub />
+              <GitHub /> GitHub
             </a>
           </li>
         </Tooltip>
+        <div className="h-4 bg-gray-500 w-[0.10rem]"></div>
         <Tooltip
-          content="linkedin.com/nazeef-muhammed"
+          content="linkedin.com/in/nazeef-muhammed"
           animate={{
             mount: { scale: 1, y: 0 },
             unmount: { scale: 0, y: 25 },
@@ -40,27 +41,9 @@ const SocialHandles: React.FC = () => {
               href="https://www.linkedin.com/in/nazeef-muhammed/"
               target="_block"
               aria-label="Visit my LinkedIn account"
+              className="flex items-center gap-1 font-manrope font-semibold hover:text-gray-200 tracking-wide"
             >
-              <LinkedIn />
-            </a>
-          </li>
-        </Tooltip>
-        <Tooltip
-          content="twitter.com/iamnazeef_"
-          animate={{
-            mount: { scale: 1, y: 0 },
-            unmount: { scale: 0, y: 25 },
-          }}
-          placement="bottom"
-          className="font-manrope text-xs laptop:text-sm text-gray-300 mt-1 bg-gray-900"
-        >
-          <li className="twitter">
-            <a
-              href="https://twitter.com/iamnazeef_"
-              target="_block"
-              aria-label="Visit my Twitter account"
-            >
-              <Twitter />
+              <LinkedIn /> LinkedIn
             </a>
           </li>
         </Tooltip>
