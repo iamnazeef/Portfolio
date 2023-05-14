@@ -15,6 +15,8 @@ const ProjectsTemplate: React.FC<Props> = ({ projectDetails }) => {
           src={projectDetails.projectImage}
           alt={`A screenshot of the project ${projectDetails.projectName}`}
           className="w-full h-full object-cover rounded-xl hover:object-contain"
+          width={343}
+          height={255}
         />
       </section>
       <section className="projects-details w-full h-[40%] flex flex-col space-y-3">

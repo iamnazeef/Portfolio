@@ -8,7 +8,7 @@ const EndNote: React.FC = () => {
         alt="A picture of mine, taken in front of a mirror"
         className="w-full max-w-[45px] rounded-full mx-auto mb-3 laptop:max-w-[50px]"
       />
-      <p>Feel free to DM me on the above-mentioned social handles</p>
+      <p>Feel free to ping me on the above-mentioned social handles</p>
     </section>
   );
 };

@@ -20,15 +20,18 @@ const About: React.FC = () => {
         websites and web applications.
       </p>
 
-      <a
-        href="mailto:muhammednazeef6@gmail.com"
-        className="flex items-center space-x-[0.06rem] font-[600] tracking-[0.019em] text-blue-700 hover:text-blue-900 transition-colors delay-75 ease-linear w-fit"
-        onMouseEnter={() => setSlideArrow(true)}
-        onMouseLeave={() => setSlideArrow(false)}
-      >
-        <h2>Hire me</h2>
-        <SlideArrow slideArrow={slideArrow} />
-      </a>
+      <div className="flex items-center gap-2">
+        <span>Want to reach out?</span>
+        <a
+          href="mailto:muhammednazeef6@gmail.com"
+          className="flex items-center space-x-[0.06rem] font-[600] tracking-[0.019em] text-blue-700 hover:text-blue-900 transition-colors delay-75 ease-linear w-fit"
+          onMouseEnter={() => setSlideArrow(true)}
+          onMouseLeave={() => setSlideArrow(false)}
+        >
+          <span>Say hello!</span>
+          <SlideArrow slideArrow={slideArrow} />
+        </a>
+      </div>
     </section>
   );
 };
