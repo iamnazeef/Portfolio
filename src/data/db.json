@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 10,
+      "id": 9,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/dashboard-app/main/public/admindash-screenshot.webp",
       "projectName": "Admindash",
       "projectDescription": "A admin dashboard app built using React JS, SCSS, JavaScript, MUI and Rechart.",
@@ -9,7 +9,7 @@
       "endpoint": "admindash"
     },
     {
-      "id": 9,
+      "id": 8,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/react-notes-app/main/public/screenshot.webp",
       "projectName": "Noteu",
       "projectDescription": "A simple note taking app built using React JS, Redux JS, TypeScript, Tailwind CSS and Firebase.",
@@ -17,7 +17,7 @@
       "endpoint": "noteu"
     },
     {
-      "id": 8,
+      "id": 7,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/skymart-ecommerce-store/screenshots/screenshots/desktop-view-1.png",
       "projectName": "Skymart",
       "projectDescription": "Skymart is an online e-commerce store built with React JS, Tailwind CSS, and JavaScript. It includes features such as add to cart, product detailed view, pagination, search, and more.",
@@ -25,7 +25,7 @@
       "endpoint": "skymart"
     },
     {
-      "id": 7,
+      "id": 6,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/portfolio-v2/main/screenshots/desktop-view.png",
       "projectName": "Portfolio-v2",
       "projectDescription": "This is the second version of my portfolio. Built using React JS, TypeScript, Tailwind CSS and Vite.",
@@ -33,7 +33,7 @@
       "endpoint": "portfolio-v2"
     },
     {
-      "id": 6,
+      "id": 5,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/AudioNest-Web-Player/main/screenshots/Desktop.png",
       "projectName": "AudioNest",
       "projectDescription": "AudioNest is a web-based music streaming service. It is entirely developed with Vanilla JS/CSS/HTML and employs JSON Server as a database and Firestore as a CDN.",
@@ -41,7 +41,7 @@
       "endpoint": "audionest"
     },
     {
-      "id": 5,
+      "id": 4,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/React-News-App/main/Screenshots/Screenshot%202022-11-03%20100609.png",
       "projectName": "The Morning Post",
       "projectDescription": "The Morning Post is a news app created with the help of technologies such as ReactJS, TailwindCSS, the Newsdata.io API, and the OpenWeatherMap API.",
@@ -49,7 +49,7 @@
       "endpoint": "themorningpost"
     },
     {
-      "id": 4,
+      "id": 3,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/taskify/main/screenshots/desktop-view-2.png",
       "projectName": "Taskify",
       "projectDescription": "Taskify is a to-do list app built using React JS. It includes features such as adding tasks, editing tasks and deleting tasks along with saving the tasks in local storage.",
@@ -57,7 +57,7 @@
       "endpoint": "taskify"
     },
     {
-      "id": 3,
+      "id": 2,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/Weather-App/main/screenshots/a1.png",
       "projectName": "Weather App",
       "projectDescription": "A simple weather app built using JavaScript, CSS , HTML and OpenWeatherMap API.",
@@ -65,20 +65,12 @@
       "endpoint": "weatherapp"
     },
     {
-      "id": 2,
+      "id": 1,
       "projectImage": "https://raw.githubusercontent.com/iamnazeef/Landing-Page-Xypo/main/screenshots/Screenshot%202022-10-03%20154858.png",
       "projectName": "Xypo",
       "projectDescription": "This is a responsive landing page for an online ed-tech platform.",
       "projectLink": "https://github.com/iamnazeef/Landing-Page-Xypo",
       "endpoint": "xypo"
-    },
-    {
-      "id": 1,
-      "projectImage": "https://raw.githubusercontent.com/iamnazeef/Portfolio/main/screenshots/desktop.png?token=GHSAT0AAAAAABYRAQ5WEB3XYPVKZ6X66E5IY6NE7SQ",
-      "projectName": "Portfolio-v1",
-      "projectDescription": "First version of my personal portfolio, built using React JS and Tailwind CSS.",
-      "projectLink": "https://github.com/iamnazeef/Portfolio",
-      "endpoint": "portfolio-v1"
     }
   ]
 }

@@ -50,7 +50,7 @@ const SocialHandles: React.FC = () => {
         </Tooltip>
         <div className="h-4 bg-gray-500 w-[0.10rem]"></div>
         <Tooltip
-          content="linkedin.com/in/nazeef-muhammed"
+          content="twitter.com/iamnazeef_"
           animate={{
             mount: { scale: 1, y: 0 },
             unmount: { scale: 0, y: 25 },

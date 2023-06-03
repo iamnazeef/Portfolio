@@ -1,8 +1,9 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import About from "../components/home/About";
 import EndNote from "../components/home/EndNote";
 import SocialHandles from "../components/home/SocialHandles";
+import Projects from "../components/projects/Projects";
 
 const Home: React.FC = () => {
   return (
@@ -13,54 +14,15 @@ const Home: React.FC = () => {
       <section className="about mt-20">
         <About />
       </section>
-      <nav className="projects-and-stack text-standardGray text-standardSize tablet:text-base mt-7 mb-3 font-manrope">
-        <ul className="flex items-center space-x-4">
-          <li>
-            <NavLink
-              to="projects"
-              className="font-[500]"
-              style={({ isActive }: { isActive: boolean }) => ({
-                color: isActive ? "#EEEEE7" : "#a3a3a3",
-              })}
-            >
-              <h3 className="hover:text-gray-200 transition-colors delay-75 ease-linear laptop:text-[1.05rem]">
-                Projects
-              </h3>
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="tech-stack"
-              className="font-[500]"
-              style={({ isActive }: { isActive: boolean }) => ({
-                color: isActive ? "#EEEEE7" : "#a3a3a3",
-              })}
-            >
-              <h3 className="hover:text-gray-200 transition-colors delay-75 ease-linear laptop:text-[1.05rem]">
-                My tech stack
-              </h3>
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="about"
-              className="font-[500]"
-              style={({ isActive }: { isActive: boolean }) => ({
-                color: isActive ? "#EEEEE7" : "#a3a3a3",
-              })}
-            >
-              <h3 className="hover:text-gray-200 transition-colors delay-75 ease-linear laptop:text-[1.05rem]">
-                About
-              </h3>
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-      <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm" />
+      <div className="projects text-standardGray text-standardSize tablet:text-base mt-7 mb-3 font-manrope">
+        <span className="laptop:text-[1.2rem] font-[500]">Projects</span>
+        <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm mt-2 mb-5" />
+        <Projects />
+      </div>
       <main className="nested-routes-data-display my-8">
         <Outlet />
       </main>
-      <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm" />
+      <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm mt-2 inline-block" />
       <EndNote />
       <hr className="w-full mx-auto border-0 h-[0.1px] bg-darkGray rounded-sm" />
       <footer className="footer text-sm my-5 text-standardGray flex items-center justify-between">
