@@ -5,18 +5,8 @@ module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        "manrope": ["Manrope", "sans-serif"],
-      },
       textColor: {
         "standardGray": "#a3a3a3",
-      },
-      fontSize: {
-        "standardSize": "0.975rem",
-      },
-      backgroundColor: {
-        "standardGray": "#a3a3a3",
-        "darkGray": "#292929",
       },
     },
     screens: {

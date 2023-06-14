@@ -5,10 +5,12 @@ import Error from "./pages/Error";
 const App: React.FC = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="*" element={<Error />} />
-      </Routes>
+      <div className="bg-black">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </div>
     </Router>
   );
 };
