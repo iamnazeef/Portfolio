@@ -13,10 +13,7 @@ const Home: React.FC = () => {
         <div className="w-full max-w-[750px] mb-4">
           <div className="flex flex-col gap-2">
             <p>
-              I'm Nazeef, a CS grad and a software developer.
-            </p>
-            <p>
-              Currently working at&nbsp;
+              Working at&nbsp;
               <a
                 href="https://entri.app/"
                 className="text-blue-800 hover:underline w-fit"
@@ -27,14 +24,13 @@ const Home: React.FC = () => {
             </p>
           </div>
         </div>
-
         <div className="flex items-center gap-2">
           <span>Want to reach out?</span>
           <a
             href="mailto:muhammednazeef6@gmail.com"
-            className="flex items-center space-x-[0.06rem] font-bold tracking-[0.019em] text-blue-800 hover:text-blue-900 transition-colors delay-75 ease-linear w-fit"
+            className="tracking-[0.019em] text-blue-800 hover:text-blue-900 transition-colors delay-75 ease-linear w-fit"
           >
-            <span>Say hello!</span>
+            <b>Say hello!</b>
           </a>
         </div>
       </section>
