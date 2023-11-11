@@ -8,6 +8,9 @@ module.exports = withMT({
       textColor: {
         "standardGray": "#a3a3a3",
       },
+      fontFamily: {
+        'inter': ['Inter Tight', 'sans-serif']
+      }
     },
     screens: {
       "tablet": "640px",
