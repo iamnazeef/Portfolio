@@ -6,24 +6,10 @@ const Home: React.FC = () => {
       <header className="flex items-center gap-2 tracking-wide">
         <img src={Picture} width={45} height={45} loading="lazy" alt="A mirror selfie of mine" />
         <div className="font-bold text-gray-300 mr-1">
-          Nazeef Muhammed
+          Nazeef Muhammed, Developer
         </div>
       </header>
       <section className="mt-8 mb-8">
-        <div className="w-full max-w-[750px] mb-4">
-          <div className="flex flex-col gap-2">
-            <p>
-              Working at&nbsp;
-              <a
-                href="https://entri.app/"
-                className="text-blue-800 hover:underline w-fit"
-              >
-                Entri.app
-              </a>
-              &nbsp;as a Junior Product Engineer
-            </p>
-          </div>
-        </div>
         <div className="flex items-center gap-2">
           <span>Want to reach out?</span>
           <a
