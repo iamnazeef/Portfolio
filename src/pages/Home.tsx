@@ -1,10 +1,13 @@
+import { works } from "../data/works"
 import Picture from "../assets/image.jpg";
+import { socialHandles } from "../data/socialHandles";
 
 const Home: React.FC = () => {
+
   return (
     <section className="home font-inter font-[400] min-h-screen px-4 py-12 w-full max-w-[900px] mx-auto text-standardGray text-xl">
       <header className="flex items-center gap-2 tracking-wide">
-        <img src={Picture} width={45} height={45} loading="lazy" alt="A mirror selfie of mine" />
+        <img className="rounded-sm" src={Picture} width={45} height={45} loading="lazy" alt="A mirror selfie of mine" />
         <div className="font-bold text-gray-300 mr-1">
           Nazeef Muhammed
           <br />
@@ -24,31 +27,34 @@ const Home: React.FC = () => {
           </a>
         </div>
       </section>
+      <section className="mt-8 mb-8">
+        <span className="text-white font-bold">Work</span>
+        <div className="flex items-center gap-2 mt-2">
+         <ul className="text-base flex flex-col gap-3">
+          {works.map(work => {
+            return (
+              <li>
+                <span className="font-semibold">{work.position}</span>
+                <br/>
+                <span>{work.startYear} -&gt; {work.endYear} - <a href={work.organizationWebsite} target="_blank" className="border-b border-dashed hover:border-0">{work.organization}</a></span>
+              </li>
+            )
+          })}
+         </ul>
+        </div>
+      </section>
       <footer className="flex flex-col items-start gap-2 absolute bottom-12">
-        <a
-          href="https://github.com/iamnazeef"
+       {socialHandles.map(socialHandle => {
+        return (
+          <a
+          href={socialHandle.url}
           className="text-blue-800 hover:underline"
-        >
-          Github
-        </a>
-        <a
-          href="https://twitter.com/iamnazeef_"
-          className="text-blue-800 hover:underline"
-        >
-          Twitter / X
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1BZWAboal4VXHqesJDIIF42z4qJrpSxeG/view"
-          className="text-blue-800 hover:underline"
-        >
-          Resume
-        </a>
-        <a
-          href="https://www.linkedin.com/in/nazeef-muhammed/"
-          className="text-blue-800 hover:underline"
-        >
-          Linkedin
-        </a>
+          target="_blank"
+          >
+            {socialHandle.name}
+          </a>
+        )
+       })}
       </footer>
     </section>
   );
