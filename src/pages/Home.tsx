@@ -6,7 +6,11 @@ const Home: React.FC = () => {
       <header className="flex items-center gap-2 tracking-wide">
         <img src={Picture} width={45} height={45} loading="lazy" alt="A mirror selfie of mine" />
         <div className="font-bold text-gray-300 mr-1">
-          Nazeef Muhammed, Developer
+          Nazeef Muhammed
+          <br />
+          <span className="italic font-[400] font-inter text-lg text-standardGray">
+            JavaScript Developer
+          </span>
         </div>
       </header>
       <section className="mt-8 mb-8">
@@ -20,7 +24,7 @@ const Home: React.FC = () => {
           </a>
         </div>
       </section>
-      <footer className="flex flex-col items-start gap-2 tablet:absolute tablet:bottom-12">
+      <footer className="flex flex-col items-start gap-2 absolute bottom-12">
         <a
           href="https://github.com/iamnazeef"
           className="text-blue-800 hover:underline"
