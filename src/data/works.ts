@@ -10,7 +10,7 @@ export const works = [
     organization: 'Global Infonet',
     organizationWebsite: 'https://global-infonet.com/',
     startYear: '07/2023',
-    endYear: '07-2023',
+    endYear: '07/2023',
     position: 'Software Engineer Intern'
   },
 ]
