@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   return (
     <section className="home font-inter font-[400] min-h-screen px-4 py-12 w-full max-w-[900px] mx-auto text-standardGray text-xl">
       <header className="flex items-center gap-2 tracking-wide">
-        <img className="rounded-sm" src="https://avatars.githubusercontent.com/u/77543715?v=4" width={45} height={45} loading="lazy" alt="profile picture" />
+        <img className="rounded-sm" src={Picture} width={45} height={45} loading="lazy" alt="profile picture" />
         <div className="font-bold text-gray-300 mr-1">
           Nazeef Muhammed
           <br />
