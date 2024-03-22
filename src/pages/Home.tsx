@@ -12,7 +12,7 @@ const Home: React.FC = () => {
           Nazeef Muhammed
           <br />
           <span className="italic font-[400] font-inter text-lg text-standardGray">
-            Software Engineer (He/Him)
+            Programmer (he/him)
           </span>
         </div>
       </header>
