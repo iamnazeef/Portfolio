@@ -1,6 +1,6 @@
 export const works = [
   {
-    organization: 'Entri',
+    organization: 'Entri.App',
     organizationWebsite: 'https://entri.app/',
     startYear: '07/2023',
     endYear: 'Present',
