@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       <header className="flex items-center gap-2 tracking-wide">
         {/* <img className="rounded-sm" src={Picture} width={45} height={45} loading="lazy" alt="profile picture" /> */}
         <div className="font-semibold text-white mr-1">
-          nazeef
+          iamnazeef
           <br />
           <span className="font-[400] font-inter text-xl text-standardGray">
             frontend engineer
