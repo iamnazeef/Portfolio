@@ -12,7 +12,7 @@ const Home: React.FC = () => {
           iamnazeef
           <br />
           <span className="font-[400] font-inter text-xl text-standardGray">
-            frontend engineer
+            javascript engineer
           </span>
         </div>
       </header>
