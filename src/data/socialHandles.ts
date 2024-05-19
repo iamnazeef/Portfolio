@@ -5,7 +5,7 @@ export const socialHandles = [
   },
   {
     name: 'Twitter / X',
-    url: 'https://twitter.com/iamnazeef_'
+    url: 'https://twitter.com/iamnazeef'
   },
   // {
   //   name: 'Resume',
